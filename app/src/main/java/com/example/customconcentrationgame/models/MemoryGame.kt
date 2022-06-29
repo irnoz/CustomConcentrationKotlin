@@ -2,7 +2,10 @@ package com.example.customconcentrationgame.models
 
 import com.example.customconcentrationgame.utils.DEFAULT_ICONS
 
-class MemoryGame(private val boardSize: BoardSize) {
+class MemoryGame(
+    private val boardSize: BoardSize,
+    private val customImages: List<String>?
+    ) {
 
     val cards: List<MemoryCard>
     var numPairsFound: Int = 0
@@ -11,9 +14,14 @@ class MemoryGame(private val boardSize: BoardSize) {
     private var indexOfSingleSelectedCard: Int? = null
 
     init {
-        val chosenImages: List<Int> = DEFAULT_ICONS.shuffled().take(boardSize.getNumPair())
-        val randomizedImages: List<Int> = (chosenImages + chosenImages).shuffled()
-        cards = randomizedImages.map { MemoryCard(it, false, false) }
+        if (customImages == null) {
+            val chosenImages: List<Int> = DEFAULT_ICONS.shuffled().take(boardSize.getNumPair())
+            val randomizedImages: List<Int> = (chosenImages + chosenImages).shuffled()
+            cards = randomizedImages.map { MemoryCard(it, null, false, false) }
+        } else{
+            val randomizedImages = (customImages + customImages).shuffled()
+            cards = randomizedImages.map { MemoryCard(it.hashCode(), it) }
+        }
     }
 
     fun flipCard(position: Int): Boolean {

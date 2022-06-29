@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "485186512282",
+    "project_id": "customconcentrationgame",
+    "storage_bucket": "customconcentrationgame.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:485186512282:android:243ed2d30a140883fe4623",
+        "android_client_info": {
+          "package_name": "com.example.customconcentrationgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "485186512282-t2oh36m3ummlm1f3hr1ltnntk7rpj0qn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrFJnK-k6btBiuFGpk9RMLlsVQ8bNPwW4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "485186512282-t2oh36m3ummlm1f3hr1ltnntk7rpj0qn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

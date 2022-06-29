@@ -5,12 +5,19 @@
       <map>
         <entry key="app/src/main/res/drawable/ic_code.xml" value="0.1475" />
         <entry key="app/src/main/res/drawable/ic_face.xml" value="0.1475" />
+        <entry key="app/src/main/res/drawable/ic_grass.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_heart.xml" value="0.1475" />
         <entry key="app/src/main/res/drawable/ic_lightning.xml" value="0.1475" />
         <entry key="app/src/main/res/drawable/ic_plane.xml" value="0.1475" />
+        <entry key="app/src/main/res/drawable/ic_refresh.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_smiley.xml" value="0.1475" />
+        <entry key="app/src/main/res/layout/activity_create.xml" value="0.322463768115942" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/card_image.xml" value="0.322463768115942" />
+        <entry key="app/src/main/res/layout/dialog_board_size.xml" value="0.322463768115942" />
+        <entry key="app/src/main/res/layout/dilog_download_board.xml" value="0.322463768115942" />
         <entry key="app/src/main/res/layout/memory_card.xml" value="0.3880208333333333" />
+        <entry key="app/src/main/res/menu/menu_main.xml" value="0.3880208333333333" />
       </map>
     </option>
   </component>

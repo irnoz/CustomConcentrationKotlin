@@ -2,6 +2,8 @@ package com.example.customconcentrationgame.utils
 
 import com.example.customconcentrationgame.R
 
+const val EXTRA_GAME_NAME: String = "EXTRA_GAME_NAME"
+const val EXTRA_BOARD_SIZE: String = "EXTRA_BOARD_SIZE"
 val DEFAULT_ICONS = listOf(
     R.drawable.ic_face,
     R.drawable.ic_cake,
